@@ -1,11 +1,15 @@
 stages:
   - mirror
+  - tag
   - publish
 
 include:
   - project: 'internal/ci-templates'
     ref: main
     file: 'mirror-to-github.yml'
+  - project: 'internal/ci-templates'
+    ref: main
+    file: 'npm-tag.yml'
   - project: 'internal/ci-templates'
     ref: main
     file: 'publish-npm.yml'
