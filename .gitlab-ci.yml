@@ -1,0 +1,15 @@
+stages:
+  - mirror
+  - publish
+
+include:
+  - project: 'internal/ci-templates'
+    ref: main
+    file: 'mirror-to-github.yml'
+  - project: 'internal/ci-templates'
+    ref: main
+    file: 'publish-npm.yml'
+
+variables:
+  HTTPS_REPO: github.com/yauseyea/oxlint-config.git
+
