@@ -1,4 +1,4 @@
-# Description
+# @yauseyea/oxlint-config
 
 Shared [oxlint](https://oxc.rs) configuration for TypeScript and Node.js projects.
 
