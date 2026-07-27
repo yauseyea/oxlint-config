@@ -1,6 +1,6 @@
 {
   "name": "@yauseyea/oxlint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Shared oxlint configuration for TypeScript/Node.js/Angular projects",
   "license": "MIT",
   "repository": {
@@ -17,6 +17,6 @@
   },
   "peerDependencies": {
     "oxlint-tsgolint": "^7.0.2001",
-    "oxlint": "^1.75.0"
+    "oxlint": "^1.76.0"
   }
 }
